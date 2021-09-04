@@ -47,12 +47,14 @@ module.exports = {
   rules: {
     'import/extensions': [1, 'ignorePackages', { js: 'never', jsx: 'never', ts: 'never', tsx: 'never' }],
     'no-unused-vars': [1, { argsIgnorePattern: '^_' }],
+    'no-use-before-define': 0,
     'linebreak-style': [2, 'unix'],
     quotes: [2, 'single'],
     'react/jsx-props-no-spreading': 0,
     'react/jsx-filename-extension': [1, { extensions: ['.tsx'] }],
     '@typescript-eslint/ban-types': [1, { extendDefaults: true, types: { '{}': false } }],
     '@typescript-eslint/no-unused-vars': [1, { argsIgnorePattern: '^_' }],
+    '@typescript-eslint/no-use-before-define': [2],
     'prettier/prettier': [2, { printWidth: 120, semi: true, singleQuote: true }],
   },
 };
