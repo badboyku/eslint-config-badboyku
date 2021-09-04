@@ -1,0 +1,12 @@
+### App ####
+node_modules/
+dist/
+
+### Jetbrains ###
+.idea/
+
+### Mac ###
+.DS_Store
+
+### VS Code ###
+.vscode/
