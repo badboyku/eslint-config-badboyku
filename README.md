@@ -6,11 +6,11 @@ Shared eslint+prettier configuration for badboyku with react/jest/typescript sup
 ### Setup
 1. Install the package.
     ```sh
-    yarn add --dev gozego/eslint-config-zego.git
+    yarn add --dev badboyku/eslint-config-badboyku.git
     ```
    or
     ```sh
-    npm install --save-dev gozego/eslint-config-zego.git
+    npm install --save-dev badboyku/eslint-config-badboyku.git
     ```
 
 2. Create a file named `.eslintrc.js` at the root and add the following:
