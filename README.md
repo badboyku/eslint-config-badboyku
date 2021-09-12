@@ -1,10 +1,10 @@
 # eslint-config-badboyku
-Shared eslint+prettier configuration for badboyku with react/jest/typescript support.
+Shared eslint+prettier configuration with react/jest/typescript support.
 
 ---
 
 ### Setup
-1. Install the package: `yarn add --dev badboyku/eslint-config-badboyku`
+1. Install the package: `yarn add --dev @badboyku/eslint-config-badboyku`
 
 2. Create a file named `.eslintrc.js` at the root and add the following:
     ```js

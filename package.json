@@ -1,8 +1,7 @@
 {
   "name": "eslint-config-badboyku",
-  "description": "Shared eslint+prettier configuration for badboyku with react/jest/typescript support.",
-  "version": "1.0.5",
-  "private": true,
+  "description": "Shared eslint+prettier configuration with react/jest/typescript support.",
+  "version": "1.0.6",
   "author": "badboyku",
   "license": "MIT",
   "repository": {
