@@ -19,6 +19,8 @@ Shared eslint+prettier configuration with react/jest/typescript support.
     "scripts": {
       "lint": "eslint \"./src/**/*.{js,jsx,ts,tsx}\"",
       "lint:fix": "eslint \"./src/**/*.{js,jsx,ts,tsx}\" --fix",
+      "prettier": "prettier --check \"./src/**/*.{css,scss,json}\"",
+      "prettier:fix": "prettier --write \"./src/**/*.{css,scss,json}\""
     },
     ```
 
