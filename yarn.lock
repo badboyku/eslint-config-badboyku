@@ -155,9 +155,9 @@
   integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
 
 "@types/node@*":
-  version "16.10.9"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.10.9.tgz#8f1cdd517972f76a3b928298f4c0747cd6fef25a"
-  integrity sha512-H9ReOt+yqIJPCutkTYjFjlyK6WEMQYT9hLZMlWtOjFQY2ItppsWZ6RJf8Aw+jz5qTYceuHvFgPIaKOHtLAEWBw==
+  version "16.11.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.0.tgz#4b95f2327bacd1ef8f08d8ceda193039c5d7f52e"
+  integrity sha512-8MLkBIYQMuhRBQzGN9875bYsOhPnf/0rgXGo66S2FemHkhbn9qtsz9ywV1iCG+vbjigE4WUNVvw37Dx+L0qsPg==
 
 "@types/yargs-parser@*":
   version "20.2.1"
@@ -702,10 +702,10 @@ eslint-plugin-jest-dom@^3.9.2:
     "@testing-library/dom" "^7.28.1"
     requireindex "^1.2.0"
 
-eslint-plugin-jest@^25.0.5:
-  version "25.0.5"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-25.0.5.tgz#22b0f155aa68aa0932adda104c930c0b1a9ca6ca"
-  integrity sha512-fMVTvh/pgBHgEyJp643qRjqvyR3TAw3VIldYV0LltepKo4whYZ4oYlsplT0SIqjnclkuNN+PRr841XPMgaOswg==
+eslint-plugin-jest@^25.2.1:
+  version "25.2.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-25.2.1.tgz#998b8a770b816534674a2df72b6165a0a42c1f61"
+  integrity sha512-fC6T95lqgWHsdVFd+f0kTHH32NxbIzIm1fJ/3kGaCFcQP1fJc5khV7DzUHjNQSTOHd5Toa7ccEBptab4uFqbNQ==
   dependencies:
     "@typescript-eslint/experimental-utils" "^5.0.0"
 
@@ -1133,9 +1133,9 @@ is-callable@^1.1.4, is-callable@^1.2.4:
   integrity sha512-nsuwtxZfMX67Oryl9LCQ+upnC0Z0BgpwntpS89m1H/TLF0zNfzfLMV/9Wa/6MZsj0acpEjAO0KF1xT6ZdLl95w==
 
 is-core-module@^2.2.0, is-core-module@^2.7.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.7.0.tgz#3c0ef7d31b4acfc574f80c58409d568a836848e3"
-  integrity sha512-ByY+tjCciCr+9nLryBYcSD50EOGWt95c7tIsKTG1J2ixKKXPvF7Ej3AVd+UfDydAJom3biBGDBALaO79ktwgEQ==
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.8.0.tgz#0321336c3d0925e497fd97f5d95cb114a5ccd548"
+  integrity sha512-vd15qHsaqrRL7dtH6QNuy0ndJmRDrS9HAM1CAiSifNUFv4x1a0CCVsj18hJ1mShxIG6T2i1sO78MkP56r0nYRw==
   dependencies:
     has "^1.0.3"
 
