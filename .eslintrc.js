@@ -55,6 +55,10 @@ module.exports = {
         'jsx-a11y/scope': 'warn',
         'react/display-name': 'off',
         'react/forbid-prop-types': 'off',
+        'react/function-component-definition': [
+          'error',
+          { namedComponents: 'arrow-function', unnamedComponents: 'arrow-function' },
+        ],
         'react/jsx-no-bind': ['error', { ignoreRefs: true, allowArrowFunctions: true, ignoreDOMComponents: true }],
         'react/jsx-props-no-spreading': 'off',
         'react/no-multi-comp': 'off',
