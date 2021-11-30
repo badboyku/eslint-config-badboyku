@@ -80,6 +80,7 @@ module.exports = {
           'error',
           { devDependencies: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'] },
         ],
+        'testing-library/no-render-in-setup': ['error', { allowTestingFrameworkSetupHook: 'beforeEach' }],
       },
     },
     {
