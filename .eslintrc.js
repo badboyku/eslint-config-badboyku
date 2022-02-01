@@ -117,8 +117,10 @@ module.exports = {
     'no-underscore-dangle': 'off',
     'no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
     'no-use-before-define': 'off',
+    'padding-line-between-statements': ['warn', { blankLine: 'always', prev: '*', next: 'return' }],
     'prettier/prettier': ['error', { printWidth: 120, singleQuote: true, trailingComma: 'all' }],
     quotes: ['error', 'single', { avoidEscape: true }],
     radix: 'off',
+    'react/no-array-index-key': 'off',
   },
 };
