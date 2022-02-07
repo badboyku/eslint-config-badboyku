@@ -62,6 +62,7 @@ module.exports = {
         ],
         'react/jsx-no-bind': ['error', { ignoreRefs: true, allowArrowFunctions: true, ignoreDOMComponents: true }],
         'react/jsx-props-no-spreading': 'off',
+        'react/no-array-index-key': 'off',
         'react/no-multi-comp': 'off',
         'react/no-undef': 'off',
         'react/no-unused-prop-types': 'error',
@@ -121,6 +122,5 @@ module.exports = {
     'prettier/prettier': ['error', { printWidth: 120, singleQuote: true, trailingComma: 'all' }],
     quotes: ['error', 'single', { avoidEscape: true }],
     radix: 'off',
-    'react/no-array-index-key': 'off',
   },
 };
