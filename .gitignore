@@ -1,6 +1,7 @@
 ### App ####
 node_modules/
 dist/
+.nvmrc
 
 ### Jetbrains ###
 .idea/
