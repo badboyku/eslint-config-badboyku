@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-badboyku",
   "description": "Shared eslint+prettier configuration with react/jest/typescript support.",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "author": "badboyku",
   "license": "MIT",
   "repository": {
@@ -21,20 +21,20 @@
     "trailingComma": "all"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.59.5",
-    "@typescript-eslint/parser": "^5.59.5",
-    "eslint": "^8.40.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
+    "@typescript-eslint/parser": "^5.59.11",
+    "eslint": "^8.42.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jest": "^27.2.1",
-    "eslint-plugin-jest-dom": "^4.0.3",
+    "eslint-plugin-jest-dom": "^5.0.1",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-testing-library": "^5.11.0",
     "prettier": "^2.8.8",
-    "typescript": "^5.0.4"
+    "typescript": "^5.1.3"
   }
 }
