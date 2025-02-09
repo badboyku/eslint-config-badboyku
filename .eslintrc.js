@@ -1,29 +1,14 @@
 module.exports = {
-  globals: {
-    __DEV__: true,
-  },
-  env: {
-    browser: true,
-    commonjs: true,
-    es6: true,
-    node: true,
-    jest: true,
-  },
-  parserOptions: {
-    ecmaFeatures: { jsx: true },
-    sourceType: 'module',
-  },
+  globals: { __DEV__: true },
+  env: { browser: true, commonjs: true, es6: true, node: true, jest: true },
+  parserOptions: { ecmaFeatures: { jsx: true }, sourceType: 'module' },
   extends: ['airbnb', 'airbnb/hooks', 'eslint:recommended', 'plugin:import/recommended', 'plugin:prettier/recommended'],
   plugins: ['import', 'prettier'],
-  settings: {
-    'import/resolver': { node: { extensions: ['.js', '.jsx', '.ts', '.tsx'] } },
-  },
+  settings: { 'import/resolver': { node: { extensions: ['.js', '.jsx', '.ts', '.tsx'] } } },
   overrides: [
     {
       files: ['**/*.[jt]sx'],
-      settings: {
-        react: { version: 'detect' },
-      },
+      settings: { react: { version: 'detect' } },
       extends: ['plugin:jsx-a11y/recommended', 'plugin:react/recommended', 'plugin:react-hooks/recommended'],
       plugins: ['jsx-a11y', 'react', 'react-hooks'],
       rules: {
@@ -76,9 +61,7 @@ module.exports = {
     },
     {
       files: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
-      settings: {
-        jest: { version: 'detect' },
-      },
+      settings: { jest: { version: 'detect' } },
       extends: ['plugin:jest/recommended', 'plugin:jest-dom/recommended', 'plugin:testing-library/react'],
       plugins: ['jest', 'jest-dom', 'testing-library'],
       rules: {
@@ -95,10 +78,17 @@ module.exports = {
       extends: ['plugin:@typescript-eslint/recommended'],
       plugins: ['@typescript-eslint'],
       rules: {
-        '@typescript-eslint/ban-types': ['warn', { extendDefaults: true, types: { '{}': false } }],
-        '@typescript-eslint/no-empty-interface': 'off',
+        '@typescript-eslint/no-empty-object-type': ['warn', { allowInterfaces: 'always', allowObjectTypes: 'always' }],
+        '@typescript-eslint/no-unused-vars': [
+          'warn',
+          {
+            argsIgnorePattern: '^_',
+            caughtErrorsIgnorePattern: '^_',
+            destructuredArrayIgnorePattern: '^_',
+            varsIgnorePattern: '^_',
+          },
+        ],
         '@typescript-eslint/no-use-before-define': ['warn', { functions: false, classes: false, variables: false }],
-        '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
         'react/jsx-filename-extension': ['warn', { extensions: ['.tsx'] }],
       },
     },
@@ -123,7 +113,7 @@ module.exports = {
     'no-constant-condition': ['error', { checkLoops: false }],
     'no-param-reassign': ['warn', { props: false }],
     'no-underscore-dangle': 'off',
-    'no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
+    'no-unused-vars': ['warn', { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }],
     'no-use-before-define': 'off',
     'padding-line-between-statements': ['warn', { blankLine: 'always', prev: '*', next: 'return' }],
     'prettier/prettier': [
