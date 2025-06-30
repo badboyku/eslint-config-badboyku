@@ -1,6 +1,10 @@
 # eslint-config-badboyku
 Shared eslint+prettier configuration with react/jest/typescript support.
 
+NOTE:
+06-29-2025 - Unable to update eslint to v9 until eslint-config-airbnb gets support for v9.
+https://github.com/airbnb/javascript/issues/2961
+
 ---
 
 ### Setup
